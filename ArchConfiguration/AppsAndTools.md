@@ -89,6 +89,29 @@ sudo pacman -S zathura zathura-pdf-mupdf
 
 Read more on <https://wiki.archlinux.org/title/Zathura>
 
+ *Tips and tricks
+
+Commands may be entered directly into zathura by pressing :, just like in vi.
+Enable copy to clipboard
+
+`~/.config/zathura/zathurarc`
+
+`set selection-clipboard clipboard`
+
+* Side-by-side mode
+
+Press d to toggle side-by-side mode.
+
+In side-by-side mode, to view odd pages on the left side, enter the command set first-page-column 1:1 into zathura. This is particularly useful for reading two-page illustrations or music scans where typesetting optimizes page-turning on certain pages.
+
+`~/.config/zathura/zathurarc`
+
+```
+map D set "first-page-column 1:1"
+map <C-d> set "first-page-column 1:2"
+```
+
+
 Or install alternative:
 
 ## llpp
