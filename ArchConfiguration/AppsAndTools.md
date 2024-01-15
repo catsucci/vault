@@ -61,6 +61,7 @@ sudo pacman -S steam
 
 ```bash
 flatpak install flathub com.github.Matoking.protontricks
+flatpak install flathub net.brinkervii.grapejuice
 ```
 
 ## install tmux
