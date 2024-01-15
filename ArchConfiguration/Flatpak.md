@@ -12,7 +12,8 @@ Protontricks is a simple wrapper that does winetricks things for Proton enabled 
 
 Flatseal is a graphical utility to review and modify permissions from your Flatpak applications.
 
-## A very good discord alt that you can stream from and can be themed:
+## A very good discord alt that you can stream from and can be themed
+
 ```bash
 flatpak install flathub dev.vencord.Vesktop
 ```
