@@ -103,15 +103,17 @@ Enable copy to clipboard
 
 Press d to toggle side-by-side mode.
 
-In side-by-side mode, to view odd pages on the left side, enter the command set first-page-column 1:1 into zathura. This is particularly useful for reading two-page illustrations or music scans where typesetting optimizes page-turning on certain pages.
+In side-by-side mode, to view odd pages on the left side, enter the command
+set first-page-column 1:1 into zathura. This is particularly useful for reading
+two-page illustrations or music scans where typesetting optimizes page-turning
+on certain pages.
 
 `~/.config/zathura/zathurarc`
 
-```
+```config
 map D set "first-page-column 1:1"
 map <C-d> set "first-page-column 1:2"
 ```
-
 
 Or install alternative:
 

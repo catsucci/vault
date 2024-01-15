@@ -10,7 +10,8 @@ sudo pacman -S qt6-base qt6-doc qtcreator qt6-examples qt6-tools qt6-languageser
 
 ## Themes -Catppuccin-
 
-Run the following commands (It is recomanded to follow instruction on Catppuccin websites)
+Run the following commands (It is recomanded to follow instruction
+on Catppuccin websites)
 
 ```bash
 cd ~/.config/QtProject/qtcreator/
@@ -26,8 +27,10 @@ Set the theme & color scheme in Qt Creator:
 * Go to Edit > Preferences.
 * Select the "Environment" tab. Change the Theme dropdown to your flavour of choice.
 * Press OK. Qt Creator will prompt you to restart, press Restart Now.
-* Usually Qt Creator will automatically select the matching text editor theme for you. If not continue to the next steps.
+* Usually Qt Creator will automatically select the matching text editor theme
+for you. If not continue to the next steps.
 * Go to Edit > Preferences again.
-* Select the "Text Editor" tab. Change the Color Scheme dropdown to your flavour of choice.
+* Select the "Text Editor" tab. Change the Color Scheme dropdown
+to your flavour of choice.
 
 And done.
