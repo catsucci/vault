@@ -31,7 +31,7 @@ Obsidian vlc
 flatpak install flathub md.obsidian.Obsidian
 
 ```bash
-sudo pacman -S p7zip zip unzip unrar htop wget locate fzf man-db
+sudo pacman -S p7zip zip unzip unrar htop btop wget locate fzf man-db
 yay -S timeshift gnome-shell-pomodoro speedtest-cli
 ```
 
