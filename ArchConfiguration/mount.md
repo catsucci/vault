@@ -21,4 +21,5 @@ sudo mount /dev/sda1 ~/mnt/my_usb/
 To unmount run the following command:
 
 ```bash
-sudo umount ~/mnt/my_usb/```
+sudo umount ~/mnt/my_usb/
+```
