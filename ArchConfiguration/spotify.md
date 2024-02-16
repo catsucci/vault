@@ -1,7 +1,7 @@
 # Spotify & Spicetify
 
 ```bash
-sudo pacman -S spotify
+sudo pacman -S spotify-launcher
 ```
 
 To style:
