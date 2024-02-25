@@ -19,11 +19,9 @@ sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pa
 ## Neovim
 
 Install Neovim to edit the configs
-Install NvChad as default (we make a costume one later)
 
-```bash
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
-```
+We using the init.lua file, make a nvim direcroty in ~/.config/ and create a init.lua file,
+then copy paste the init.lua in my repo -dotfiles-.
 
 ## Some useful apps
 
