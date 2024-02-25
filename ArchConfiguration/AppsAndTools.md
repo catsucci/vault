@@ -23,14 +23,30 @@ Install Neovim to edit the configs
 We using the init.lua file, make a nvim direcroty in ~/.config/ and create a init.lua file,
 then copy paste the init.lua in my repo -dotfiles-.
 
-## Some useful apps
-
-Obsidian vlc
-flatpak install flathub md.obsidian.Obsidian
+## Some useful apps & tools
 
 ```bash
-sudo pacman -S p7zip zip unzip unrar htop btop wget locate zoxide fzf man-db
+sudo pacman -S p7zip zip unzip unrar htop wget locate fzf man-db ripgrep
 yay -S timeshift gnome-shell-pomodoro speedtest-cli
+```
+
+Run this command once
+
+```bash
+sudo updatedb
+```
+
+## Zoxide -cd alternative-
+```bash
+sudo pacman -S zoxide
+```
+
+watch Dreams of code vid to configure it <https://www.youtube.com/watch?v=aghxkpyRVDY>
+
+## Fonts
+
+```bash
+sudo pacman -S ttf-jetbrains-mono-nerd
 ```
 
 ## install java
@@ -39,27 +55,10 @@ yay -S timeshift gnome-shell-pomodoro speedtest-cli
 sudo pacman -S jdk-openjdk
 ```
 
-## install apps
+## install basic apps
 
 ```bash
 sudo pacman -S libreoffice-fresh vlc gimp krita inkscape obs-studio
-```
-
-## Discord & webcord (for streaming)
-
-```bash
-yay -S discord_arch_electron Webcord 
-```
-
-## Install games
-
-```bash
-sudo pacman -S steam
-```
-
-```bash
-flatpak install flathub com.github.Matoking.protontricks
-flatpak install flathub net.brinkervii.grapejuice
 ```
 
 ## install tmux
@@ -68,13 +67,12 @@ flatpak install flathub net.brinkervii.grapejuice
 sudo pacman -S tmux
 ```
 
-configure tmux using Dreams of code config:
+Copy my tmux.conf into the tmux folder & clone TPM
 
 ```bash
-mkdir ~/.config/tmux
-cd ~/.config/tmux
-wget https://raw.githubusercontent.com/dreamsofcode-io/tmux/main/tmux.conf
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+Then install them with prefix + I
 
 ## Zathura
 
@@ -119,4 +117,19 @@ Or install alternative:
 
 ```bash
 yay -S llpp
+```
+## Obsidian
+
+## Installation
+
+* using pacman:
+
+```bash
+sudo pacman -S obsidian
+```
+
+* Using flatpak:
+
+```bash
+flatpak install flathub md.obsidian.Obsidian
 ```

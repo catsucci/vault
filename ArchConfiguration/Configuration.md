@@ -24,21 +24,6 @@ hyprctl monitors all
 
 See <https://wiki.hyprland.org/Configuring/Monitors/>
 
-## Kitty aka the terminal
-
-Edit the kitty.conf as you wish
-
-```bash
-nvim ~/.config/kitty/kitty.conf
-```
-
-to use mine:
-
-```bash
-cd where/my/dotfiles/are
-cp kitty/kitty.conf ~/.config/kitty
-```
-
 ## Hyprland settings
 
 Costume settings in ~/.config/hypr/userprefs.conf
@@ -46,44 +31,7 @@ Costume settings in ~/.config/hypr/userprefs.conf
 ```bash
 nvim ~/.config/hypr/userprefs.conf
 ```
-
-then add your costume config.
-mine is:
-
-```conf
-input {
-    kb_layout = us
-    follow_mouse = 1
-
-    touchpad {
-        natural_scroll = yes
-    }
-
-    sensitivity = 0 # -1.0 - 1.0, 0 means no modification.
-    force_no_accel = 1
-}
-
-device:epic mouse v1 {
-    sensitivity = -0.5
-}
-```
-
-## Clone my dot files
-
-```bash
-git clone https://github.com/catsucci/.dotfiles.git
-```
-
-Copy whatever you need
-like for zsh:
-
-```bash
-cd .dotfiles
-cp zsh/.zshrc ~/
-cp zsh/.p10k.zsh ~/
-```
-
-copy my scripts and fix the aliases
+then add your costume config or copy mine.
 
 ## emoji and symbols
 
