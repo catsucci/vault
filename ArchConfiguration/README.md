@@ -96,7 +96,7 @@ cp .gitconfig ~/
 ### Some useful apps & tools
 
 ```bash
-sudo pacman -S firefox p7zip zip unzip unrar htop wget locate fzf man-db ripgrep tmux neovim zoxide ttf-jetbrains-mono-nerd jdk-openjdk libreoffice-fresh vlc gimp inkscape obs-studio zathura zathura-pdf-mupdf flatpak github-cli lazygit python-pip spotify-launcher sqlite-doc sqlitebrowser adobe-source-code-pro-fonts adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts alacritty bat bluez-utils cloc curl eza fd htop kdenlive noto-fonts-cjk noto-fonts-emoji steam texlive thefuck tldr wine
+sudo pacman -S zsh firefox p7zip zip unzip unrar htop wget locate fzf man-db ripgrep tmux neovim zoxide ttf-jetbrains-mono-nerd jdk-openjdk libreoffice-fresh vlc gimp inkscape obs-studio zathura zathura-pdf-mupdf flatpak github-cli lazygit python-pip spotify-launcher sqlite-doc sqlitebrowser adobe-source-code-pro-fonts adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts alacritty bat bluez-utils cloc curl eza fd htop kdenlive noto-fonts-cjk noto-fonts-emoji steam texlive thefuck tldr wine
 yay -S litecli vesktop-bin visual-studio-code-bin
 ```
 Some other apps:
@@ -149,6 +149,13 @@ Open tmux and do `C-space + I` to install the plugins.
 
 #### Zsh
 
+Set zsh to be your default shell:
+
+```bash
+chsh $USERNAME
+# make you sure you know where is your zsh path is
+/bin/zsh
+```
 Copy my .zshrc into your home dir:
 
 ```bash
